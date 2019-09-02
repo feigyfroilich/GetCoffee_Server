@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="GetCoffeeDBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Category">
+    <Key>
+      <PropertyRef Name="code" />
+    </Key>
+    <Property Name="code" Type="bigint" Nullable="false" />
+    <Property Name="name" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="parentCode" Type="bigint" />
+  </EntityType>
+  <EntityType Name="Order">
+    <Key>
+      <PropertyRef Name="code" />
+    </Key>
+    <Property Name="code" Type="bigint" Nullable="false" />
+    <Property Name="shopCode" Type="bigint" Nullable="false" />
+    <Property Name="date" Type="datetime" Nullable="false" />
+    <Property Name="deadline" Type="time" Precision="7" Nullable="false" />
+    <Property Name="takeTime" Type="time" Precision="7" Nullable="false" />
+    <Property Name="ready" Type="bit" Nullable="false" />
+    <Property Name="status" Type="bit" />
+  </EntityType>
+  <EntityType Name="OrderProducts">
+    <Key>
+      <PropertyRef Name="orderCode" />
+      <PropertyRef Name="productCode" />
+    </Key>
+    <Property Name="orderCode" Type="bigint" Nullable="false" />
+    <Property Name="productCode" Type="bigint" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Product">
+    <Key>
+      <PropertyRef Name="code" />
+    </Key>
+    <Property Name="code" Type="bigint" Nullable="false" />
+    <Property Name="name" Type="nchar" MaxLength="10" Nullable="false" />
+    <Property Name="categoryCode" Type="bigint" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Shop">
+    <Key>
+      <PropertyRef Name="code" />
+    </Key>
+    <Property Name="code" Type="bigint" Nullable="false" />
+    <Property Name="name" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="location" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="loginCode" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="shipment" Type="bit" Nullable="false" />
+    <Property Name="status" Type="bit" />
+    <Property Name="rank" Type="int" />
+    <Property Name="numOfCustomer" Type="bigint" />
+    <Property Name="accountNumber" Type="bigint" />
+  </EntityType>
+  <EntityType Name="Shop'sProduct">
+    <Key>
+      <PropertyRef Name="productCode" />
+      <PropertyRef Name="shopCode" />
+    </Key>
+    <Property Name="productCode" Type="bigint" Nullable="false" />
+    <Property Name="shopCode" Type="bigint" Nullable="false" />
+    <Property Name="price" Type="money" Nullable="false" />
+    <Property Name="duration" Type="time" Precision="7" Nullable="false" />
+    <Property Name="status" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <Association Name="FK_Category_Category">
+    <End Role="Category" Type="Self.Category" Multiplicity="1" />
+    <End Role="Category1" Type="Self.Category" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Category">
+        <PropertyRef Name="code" />
+      </Principal>
+      <Dependent Role="Category1">
+        <PropertyRef Name="code" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Order_Shop">
+    <End Role="Shop" Type="Self.Shop" Multiplicity="1" />
+    <End Role="Order" Type="Self.Order" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Shop">
+        <PropertyRef Name="code" />
+      </Principal>
+      <Dependent Role="Order">
+        <PropertyRef Name="shopCode" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_OrderProducts_Order">
+    <End Role="Order" Type="Self.Order" Multiplicity="1" />
+    <End Role="OrderProducts" Type="Self.OrderProducts" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Order">
+        <PropertyRef Name="code" />
+      </Principal>
+      <Dependent Role="OrderProducts">
+        <PropertyRef Name="orderCode" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_OrderProducts_Product">
+    <End Role="Product" Type="Self.Product" Multiplicity="1" />
+    <End Role="OrderProducts" Type="Self.OrderProducts" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Product">
+        <PropertyRef Name="code" />
+      </Principal>
+      <Dependent Role="OrderProducts">
+        <PropertyRef Name="productCode" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Product_Category">
+    <End Role="Category" Type="Self.Category" Multiplicity="1" />
+    <End Role="Product" Type="Self.Product" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Category">
+        <PropertyRef Name="code" />
+      </Principal>
+      <Dependent Role="Product">
+        <PropertyRef Name="categoryCode" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Shop'sProduct_Product">
+    <End Role="Product" Type="Self.Product" Multiplicity="1" />
+    <End Role="Shop'sProduct" Type="Self.Shop'sProduct" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Product">
+        <PropertyRef Name="code" />
+      </Principal>
+      <Dependent Role="Shop'sProduct">
+        <PropertyRef Name="productCode" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Shop'sProduct_Shop">
+    <End Role="Shop" Type="Self.Shop" Multiplicity="1" />
+    <End Role="Shop'sProduct" Type="Self.Shop'sProduct" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Shop">
+        <PropertyRef Name="code" />
+      </Principal>
+      <Dependent Role="Shop'sProduct">
+        <PropertyRef Name="shopCode" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="GetCoffeeDBModelStoreContainer">
+    <EntitySet Name="Category" EntityType="Self.Category" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Order" EntityType="Self.Order" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="OrderProducts" EntityType="Self.OrderProducts" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Product" EntityType="Self.Product" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Shop" EntityType="Self.Shop" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Shop'sProduct" EntityType="Self.Shop'sProduct" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Category_Category" Association="Self.FK_Category_Category">
+      <End Role="Category" EntitySet="Category" />
+      <End Role="Category1" EntitySet="Category" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Order_Shop" Association="Self.FK_Order_Shop">
+      <End Role="Shop" EntitySet="Shop" />
+      <End Role="Order" EntitySet="Order" />
+    </AssociationSet>
+    <AssociationSet Name="FK_OrderProducts_Order" Association="Self.FK_OrderProducts_Order">
+      <End Role="Order" EntitySet="Order" />
+      <End Role="OrderProducts" EntitySet="OrderProducts" />
+    </AssociationSet>
+    <AssociationSet Name="FK_OrderProducts_Product" Association="Self.FK_OrderProducts_Product">
+      <End Role="Product" EntitySet="Product" />
+      <End Role="OrderProducts" EntitySet="OrderProducts" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Product_Category" Association="Self.FK_Product_Category">
+      <End Role="Category" EntitySet="Category" />
+      <End Role="Product" EntitySet="Product" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Shop'sProduct_Product" Association="Self.FK_Shop'sProduct_Product">
+      <End Role="Product" EntitySet="Product" />
+      <End Role="Shop'sProduct" EntitySet="Shop'sProduct" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Shop'sProduct_Shop" Association="Self.FK_Shop'sProduct_Shop">
+      <End Role="Shop" EntitySet="Shop" />
+      <End Role="Shop'sProduct" EntitySet="Shop'sProduct" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

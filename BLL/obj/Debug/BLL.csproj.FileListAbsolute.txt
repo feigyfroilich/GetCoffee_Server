@@ -1,0 +1,26 @@
+T:\PHP\פרויקטים\getcoffee\GetCoffeeAPI\BLL\bin\Debug\BLL.dll
+T:\PHP\פרויקטים\getcoffee\GetCoffeeAPI\BLL\bin\Debug\BLL.pdb
+T:\PHP\פרויקטים\getcoffee\GetCoffeeAPI\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+T:\PHP\פרויקטים\getcoffee\GetCoffeeAPI\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+T:\PHP\פרויקטים\getcoffee\GetCoffeeAPI\BLL\obj\Debug\BLL.dll
+T:\PHP\פרויקטים\getcoffee\GetCoffeeAPI\BLL\obj\Debug\BLL.pdb
+T:\PHP\פרויקטים\getcoffee\GetCoffeeAPI\BLL\bin\Debug\DAL.dll
+T:\PHP\פרויקטים\getcoffee\GetCoffeeAPI\BLL\bin\Debug\DTO.dll
+T:\PHP\פרויקטים\getcoffee\GetCoffeeAPI\BLL\bin\Debug\EntityFramework.dll
+T:\PHP\פרויקטים\getcoffee\GetCoffeeAPI\BLL\bin\Debug\DAL.pdb
+T:\PHP\פרויקטים\getcoffee\GetCoffeeAPI\BLL\bin\Debug\DAL.dll.config
+T:\PHP\פרויקטים\getcoffee\GetCoffeeAPI\BLL\bin\Debug\DTO.pdb
+T:\PHP\פרויקטים\getcoffee\GetCoffeeAPI\BLL\bin\Debug\EntityFramework.xml
+T:\PHP\פרויקטים\getcoffee\GetCoffeeAPI\BLL\obj\Debug\BLL.csproj.CopyComplete
+E:\פרויקט גמר\_final project\getcoffee\GetCoffeeAPI\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+E:\פרויקט גמר\_final project\getcoffee\GetCoffeeAPI\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+E:\פרויקט גמר\_final project\getcoffee\GetCoffeeAPI\BLL\obj\Debug\BLL.dll
+E:\פרויקט גמר\_final project\getcoffee\GetCoffeeAPI\BLL\obj\Debug\BLL.pdb
+E:\פרויקט גמר\_final project\getcoffee\GetCoffeeAPI\BLL\bin\Debug\BLL.dll
+E:\פרויקט גמר\_final project\getcoffee\GetCoffeeAPI\BLL\bin\Debug\BLL.pdb
+E:\פרויקט גמר\_final project\getcoffee\GetCoffeeAPI\BLL\bin\Debug\DAL.dll
+E:\פרויקט גמר\_final project\getcoffee\GetCoffeeAPI\BLL\bin\Debug\DTO.dll
+E:\פרויקט גמר\_final project\getcoffee\GetCoffeeAPI\BLL\bin\Debug\DAL.pdb
+E:\פרויקט גמר\_final project\getcoffee\GetCoffeeAPI\BLL\bin\Debug\DAL.dll.config
+E:\פרויקט גמר\_final project\getcoffee\GetCoffeeAPI\BLL\bin\Debug\DTO.pdb
+E:\פרויקט גמר\_final project\getcoffee\GetCoffeeAPI\BLL\bin\Debug\EntityFramework.xml

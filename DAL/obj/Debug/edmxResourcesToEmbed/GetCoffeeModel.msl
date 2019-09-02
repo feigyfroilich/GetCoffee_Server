@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="GetCoffeeDBModelStoreContainer" CdmEntityContainer="GetCoffeeDBEntities">
+    <EntitySetMapping Name="Categories">
+      <EntityTypeMapping TypeName="GetCoffeeDBModel.Category">
+        <MappingFragment StoreEntitySet="Category">
+          <ScalarProperty Name="code" ColumnName="code" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="parentCode" ColumnName="parentCode" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Orders">
+      <EntityTypeMapping TypeName="GetCoffeeDBModel.Order">
+        <MappingFragment StoreEntitySet="Order">
+          <ScalarProperty Name="code" ColumnName="code" />
+          <ScalarProperty Name="shopCode" ColumnName="shopCode" />
+          <ScalarProperty Name="date" ColumnName="date" />
+          <ScalarProperty Name="deadline" ColumnName="deadline" />
+          <ScalarProperty Name="takeTime" ColumnName="takeTime" />
+          <ScalarProperty Name="ready" ColumnName="ready" />
+          <ScalarProperty Name="status" ColumnName="status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Products">
+      <EntityTypeMapping TypeName="GetCoffeeDBModel.Product">
+        <MappingFragment StoreEntitySet="Product">
+          <ScalarProperty Name="code" ColumnName="code" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="categoryCode" ColumnName="categoryCode" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Shops">
+      <EntityTypeMapping TypeName="GetCoffeeDBModel.Shop">
+        <MappingFragment StoreEntitySet="Shop">
+          <ScalarProperty Name="code" ColumnName="code" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="location" ColumnName="location" />
+          <ScalarProperty Name="loginCode" ColumnName="loginCode" />
+          <ScalarProperty Name="shipment" ColumnName="shipment" />
+          <ScalarProperty Name="status" ColumnName="status" />
+          <ScalarProperty Name="rank" ColumnName="rank" />
+          <ScalarProperty Name="numOfCustomer" ColumnName="numOfCustomer" />
+          <ScalarProperty Name="accountNumber" ColumnName="accountNumber" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Shop_sProduct">
+      <EntityTypeMapping TypeName="GetCoffeeDBModel.Shop_sProduct">
+        <MappingFragment StoreEntitySet="Shop'sProduct">
+          <ScalarProperty Name="productCode" ColumnName="productCode" />
+          <ScalarProperty Name="shopCode" ColumnName="shopCode" />
+          <ScalarProperty Name="price" ColumnName="price" />
+          <ScalarProperty Name="duration" ColumnName="duration" />
+          <ScalarProperty Name="status" ColumnName="status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="GetCoffeeDBModel.sysdiagram">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="OrderProducts" TypeName="GetCoffeeDBModel.OrderProducts" StoreEntitySet="OrderProducts">
+      <EndProperty Name="Order">
+        <ScalarProperty Name="code" ColumnName="orderCode" />
+      </EndProperty>
+      <EndProperty Name="Product">
+        <ScalarProperty Name="code" ColumnName="productCode" />
+      </EndProperty>
+    </AssociationSetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,193 @@
+T:\PHP\פרויקטים\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\GetCoffeeAPI.dll.config
+T:\PHP\פרויקטים\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\GetCoffeeAPI.dll
+T:\PHP\פרויקטים\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\GetCoffeeAPI.pdb
+T:\PHP\פרויקטים\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\roslyn\csc.exe
+T:\PHP\פרויקטים\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\roslyn\csc.exe.config
+T:\PHP\פרויקטים\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\roslyn\csc.rsp
+T:\PHP\פרויקטים\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\roslyn\csi.exe
+T:\PHP\פרויקטים\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\roslyn\csi.exe.config
+T:\PHP\פרויקטים\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\roslyn\csi.rsp
+T:\PHP\פרויקטים\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+T:\PHP\פרויקטים\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+T:\PHP\פרויקטים\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+T:\PHP\פרויקטים\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\roslyn\Microsoft.CodeAnalysis.dll
+T:\PHP\פרויקטים\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+T:\PHP\פרויקטים\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+T:\PHP\פרויקטים\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\roslyn\Microsoft.CSharp.Core.targets
+T:\PHP\פרויקטים\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+T:\PHP\פרויקטים\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+T:\PHP\פרויקטים\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\roslyn\Microsoft.Managed.Core.targets
+T:\PHP\פרויקטים\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+T:\PHP\פרויקטים\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\roslyn\System.AppContext.dll
+T:\PHP\פרויקטים\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\roslyn\System.Collections.Immutable.dll
+T:\PHP\פרויקטים\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\roslyn\System.Console.dll
+T:\PHP\פרויקטים\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+T:\PHP\פרויקטים\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\roslyn\System.Diagnostics.StackTrace.dll
+T:\PHP\פרויקטים\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\roslyn\System.IO.Compression.dll
+T:\PHP\פרויקטים\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\roslyn\System.IO.FileSystem.dll
+T:\PHP\פרויקטים\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\roslyn\System.IO.FileSystem.Primitives.dll
+T:\PHP\פרויקטים\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\roslyn\System.IO.Pipes.AccessControl.dll
+T:\PHP\פרויקטים\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\roslyn\System.IO.Pipes.dll
+T:\PHP\פרויקטים\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\roslyn\System.Reflection.Metadata.dll
+T:\PHP\פרויקטים\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\roslyn\System.Security.AccessControl.dll
+T:\PHP\פרויקטים\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\roslyn\System.Security.Claims.dll
+T:\PHP\פרויקטים\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+T:\PHP\פרויקטים\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\roslyn\System.Security.Cryptography.Encoding.dll
+T:\PHP\פרויקטים\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\roslyn\System.Security.Cryptography.Primitives.dll
+T:\PHP\פרויקטים\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+T:\PHP\פרויקטים\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\roslyn\System.Security.Principal.Windows.dll
+T:\PHP\פרויקטים\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\roslyn\System.Text.Encoding.CodePages.dll
+T:\PHP\פרויקטים\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\roslyn\System.ValueTuple.dll
+T:\PHP\פרויקטים\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\roslyn\System.Xml.ReaderWriter.dll
+T:\PHP\פרויקטים\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\roslyn\System.Xml.XmlDocument.dll
+T:\PHP\פרויקטים\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\roslyn\System.Xml.XPath.dll
+T:\PHP\פרויקטים\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\roslyn\System.Xml.XPath.XDocument.dll
+T:\PHP\פרויקטים\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\roslyn\vbc.exe
+T:\PHP\פרויקטים\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\roslyn\vbc.exe.config
+T:\PHP\פרויקטים\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\roslyn\vbc.rsp
+T:\PHP\פרויקטים\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\roslyn\VBCSCompiler.exe
+T:\PHP\פרויקטים\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\roslyn\VBCSCompiler.exe.config
+T:\PHP\פרויקטים\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\Antlr3.Runtime.dll
+T:\PHP\פרויקטים\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+T:\PHP\פרויקטים\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+T:\PHP\פרויקטים\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\Microsoft.Web.Infrastructure.dll
+T:\PHP\פרויקטים\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\Newtonsoft.Json.dll
+T:\PHP\פרויקטים\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\System.Diagnostics.DiagnosticSource.dll
+T:\PHP\פרויקטים\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\System.Net.Http.Formatting.dll
+T:\PHP\פרויקטים\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\System.Web.Helpers.dll
+T:\PHP\פרויקטים\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\System.Web.Http.dll
+T:\PHP\פרויקטים\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\System.Web.Http.WebHost.dll
+T:\PHP\פרויקטים\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\System.Web.Mvc.dll
+T:\PHP\פרויקטים\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\System.Web.Optimization.dll
+T:\PHP\פרויקטים\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\System.Web.Razor.dll
+T:\PHP\פרויקטים\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\System.Web.WebPages.Deployment.dll
+T:\PHP\פרויקטים\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\System.Web.WebPages.dll
+T:\PHP\פרויקטים\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\System.Web.WebPages.Razor.dll
+T:\PHP\פרויקטים\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\WebGrease.dll
+T:\PHP\פרויקטים\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\Newtonsoft.Json.xml
+T:\PHP\פרויקטים\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\System.Net.Http.Formatting.xml
+T:\PHP\פרויקטים\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\System.Web.Helpers.xml
+T:\PHP\פרויקטים\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\System.Web.Http.xml
+T:\PHP\פרויקטים\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\System.Web.Http.WebHost.xml
+T:\PHP\פרויקטים\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\System.Web.Mvc.xml
+T:\PHP\פרויקטים\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\System.Web.Optimization.xml
+T:\PHP\פרויקטים\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\System.Web.Razor.xml
+T:\PHP\פרויקטים\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\System.Web.WebPages.xml
+T:\PHP\פרויקטים\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\System.Web.WebPages.Deployment.xml
+T:\PHP\פרויקטים\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\System.Web.WebPages.Razor.xml
+T:\PHP\פרויקטים\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\Antlr3.Runtime.pdb
+T:\PHP\פרויקטים\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\System.Diagnostics.DiagnosticSource.xml
+T:\PHP\פרויקטים\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+T:\PHP\פרויקטים\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+T:\PHP\פרויקטים\getcoffee\GetCoffeeAPI\GetCoffeeAPI\obj\Debug\GetCoffeeAPI.csprojAssemblyReference.cache
+T:\PHP\פרויקטים\getcoffee\GetCoffeeAPI\GetCoffeeAPI\obj\Debug\GetCoffeeAPI.csproj.CoreCompileInputs.cache
+T:\PHP\פרויקטים\getcoffee\GetCoffeeAPI\GetCoffeeAPI\obj\Debug\GetCoffeeAPI.csproj.CopyComplete
+T:\PHP\פרויקטים\getcoffee\GetCoffeeAPI\GetCoffeeAPI\obj\Debug\GetCoffeeAPI.dll
+T:\PHP\פרויקטים\getcoffee\GetCoffeeAPI\GetCoffeeAPI\obj\Debug\GetCoffeeAPI.pdb
+T:\PHP\פרויקטים\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\BLL.dll
+T:\PHP\פרויקטים\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\DTO.dll
+T:\PHP\פרויקטים\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\BLL.pdb
+T:\PHP\פרויקטים\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\DTO.pdb
+T:\PHP\פרויקטים\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\DAL.dll
+T:\PHP\פרויקטים\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\EntityFramework.dll
+T:\PHP\פרויקטים\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\EntityFramework.SqlServer.dll
+T:\PHP\פרויקטים\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\DAL.pdb
+T:\PHP\פרויקטים\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\DAL.dll.config
+T:\PHP\פרויקטים\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\EntityFramework.xml
+T:\PHP\פרויקטים\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\EntityFramework.SqlServer.xml
+E:\פרויקט גמר\_final project\getcoffee\GetCoffeeAPI\GetCoffeeAPI\obj\Debug\GetCoffeeAPI.csprojResolveAssemblyReference.cache
+E:\פרויקט גמר\_final project\getcoffee\GetCoffeeAPI\GetCoffeeAPI\obj\Debug\GetCoffeeAPI.csproj.CoreCompileInputs.cache
+E:\פרויקט גמר\_final project\getcoffee\GetCoffeeAPI\GetCoffeeAPI\obj\Debug\GetCoffeeAPI.dll
+E:\פרויקט גמר\_final project\getcoffee\GetCoffeeAPI\GetCoffeeAPI\obj\Debug\GetCoffeeAPI.pdb
+E:\פרויקט גמר\_final project\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\GetCoffeeAPI.dll.config
+E:\פרויקט גמר\_final project\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\GetCoffeeAPI.dll
+E:\פרויקט גמר\_final project\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\GetCoffeeAPI.pdb
+E:\פרויקט גמר\_final project\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\roslyn\csc.exe
+E:\פרויקט גמר\_final project\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\roslyn\csc.exe.config
+E:\פרויקט גמר\_final project\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\roslyn\csc.rsp
+E:\פרויקט גמר\_final project\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\roslyn\csi.exe
+E:\פרויקט גמר\_final project\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\roslyn\csi.exe.config
+E:\פרויקט גמר\_final project\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\roslyn\csi.rsp
+E:\פרויקט גמר\_final project\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\פרויקט גמר\_final project\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\פרויקט גמר\_final project\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\פרויקט גמר\_final project\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\פרויקט גמר\_final project\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\פרויקט גמר\_final project\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\פרויקט גמר\_final project\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\פרויקט גמר\_final project\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\פרויקט גמר\_final project\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\פרויקט גמר\_final project\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\roslyn\Microsoft.Managed.Core.targets
+E:\פרויקט גמר\_final project\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\פרויקט גמר\_final project\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\roslyn\System.AppContext.dll
+E:\פרויקט גמר\_final project\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\roslyn\System.Collections.Immutable.dll
+E:\פרויקט גמר\_final project\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\roslyn\System.Console.dll
+E:\פרויקט גמר\_final project\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\פרויקט גמר\_final project\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\פרויקט גמר\_final project\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\roslyn\System.IO.Compression.dll
+E:\פרויקט גמר\_final project\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\roslyn\System.IO.FileSystem.dll
+E:\פרויקט גמר\_final project\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\פרויקט גמר\_final project\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\roslyn\System.IO.Pipes.AccessControl.dll
+E:\פרויקט גמר\_final project\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\roslyn\System.IO.Pipes.dll
+E:\פרויקט גמר\_final project\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\roslyn\System.Reflection.Metadata.dll
+E:\פרויקט גמר\_final project\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\roslyn\System.Security.AccessControl.dll
+E:\פרויקט גמר\_final project\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\roslyn\System.Security.Claims.dll
+E:\פרויקט גמר\_final project\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\פרויקט גמר\_final project\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\פרויקט גמר\_final project\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\פרויקט גמר\_final project\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\פרויקט גמר\_final project\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\roslyn\System.Security.Principal.Windows.dll
+E:\פרויקט גמר\_final project\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\פרויקט גמר\_final project\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\roslyn\System.ValueTuple.dll
+E:\פרויקט גמר\_final project\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\פרויקט גמר\_final project\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\roslyn\System.Xml.XmlDocument.dll
+E:\פרויקט גמר\_final project\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\roslyn\System.Xml.XPath.dll
+E:\פרויקט גמר\_final project\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\פרויקט גמר\_final project\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\roslyn\vbc.exe
+E:\פרויקט גמר\_final project\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\roslyn\vbc.exe.config
+E:\פרויקט גמר\_final project\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\roslyn\vbc.rsp
+E:\פרויקט גמר\_final project\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\roslyn\VBCSCompiler.exe
+E:\פרויקט גמר\_final project\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\roslyn\VBCSCompiler.exe.config
+E:\פרויקט גמר\_final project\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\Antlr3.Runtime.dll
+E:\פרויקט גמר\_final project\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\BLL.dll
+E:\פרויקט גמר\_final project\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\DAL.dll
+E:\פרויקט גמר\_final project\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\DTO.dll
+E:\פרויקט גמר\_final project\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\EntityFramework.dll
+E:\פרויקט גמר\_final project\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\EntityFramework.SqlServer.dll
+E:\פרויקט גמר\_final project\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+E:\פרויקט גמר\_final project\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\פרויקט גמר\_final project\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\Microsoft.Web.Infrastructure.dll
+E:\פרויקט גמר\_final project\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\Newtonsoft.Json.dll
+E:\פרויקט גמר\_final project\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\System.Diagnostics.DiagnosticSource.dll
+E:\פרויקט גמר\_final project\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\System.Net.Http.Formatting.dll
+E:\פרויקט גמר\_final project\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\System.Web.Helpers.dll
+E:\פרויקט גמר\_final project\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\System.Web.Http.dll
+E:\פרויקט גמר\_final project\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\System.Web.Http.WebHost.dll
+E:\פרויקט גמר\_final project\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\System.Web.Mvc.dll
+E:\פרויקט גמר\_final project\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\System.Web.Optimization.dll
+E:\פרויקט גמר\_final project\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\System.Web.Razor.dll
+E:\פרויקט גמר\_final project\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\System.Web.WebPages.Deployment.dll
+E:\פרויקט גמר\_final project\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\System.Web.WebPages.dll
+E:\פרויקט גמר\_final project\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\System.Web.WebPages.Razor.dll
+E:\פרויקט גמר\_final project\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\WebGrease.dll
+E:\פרויקט גמר\_final project\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\BLL.pdb
+E:\פרויקט גמר\_final project\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\DAL.pdb
+E:\פרויקט גמר\_final project\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\DAL.dll.config
+E:\פרויקט גמר\_final project\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\DTO.pdb
+E:\פרויקט גמר\_final project\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\EntityFramework.xml
+E:\פרויקט גמר\_final project\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\EntityFramework.SqlServer.xml
+E:\פרויקט גמר\_final project\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\Newtonsoft.Json.xml
+E:\פרויקט גמר\_final project\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\System.Net.Http.Formatting.xml
+E:\פרויקט גמר\_final project\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\System.Web.Helpers.xml
+E:\פרויקט גמר\_final project\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\System.Web.Http.xml
+E:\פרויקט גמר\_final project\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\System.Web.Http.WebHost.xml
+E:\פרויקט גמר\_final project\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\System.Web.Mvc.xml
+E:\פרויקט גמר\_final project\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\System.Web.Optimization.xml
+E:\פרויקט גמר\_final project\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\System.Web.Razor.xml
+E:\פרויקט גמר\_final project\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\System.Web.WebPages.xml
+E:\פרויקט גמר\_final project\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\System.Web.WebPages.Deployment.xml
+E:\פרויקט גמר\_final project\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\System.Web.WebPages.Razor.xml
+E:\פרויקט גמר\_final project\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\Antlr3.Runtime.pdb
+E:\פרויקט גמר\_final project\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\System.Diagnostics.DiagnosticSource.xml
+E:\פרויקט גמר\_final project\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+E:\פרויקט גמר\_final project\getcoffee\GetCoffeeAPI\GetCoffeeAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
