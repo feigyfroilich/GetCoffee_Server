@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
   <EntityContainerMapping StorageEntityContainer="GetCoffeeDBModelStoreContainer" CdmEntityContainer="GetCoffeeDBEntities">
-    <EntitySetMapping Name="Category">
+    <EntitySetMapping Name="Categories">
       <EntityTypeMapping TypeName="GetCoffeeDBModel.Category">
         <MappingFragment StoreEntitySet="Category">
           <ScalarProperty Name="code" ColumnName="code" />
@@ -10,7 +10,7 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
-    <EntitySetMapping Name="Order">
+    <EntitySetMapping Name="Orders">
       <EntityTypeMapping TypeName="GetCoffeeDBModel.Order">
         <MappingFragment StoreEntitySet="Order">
           <ScalarProperty Name="code" ColumnName="code" />
@@ -23,7 +23,7 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
-    <EntitySetMapping Name="Product">
+    <EntitySetMapping Name="Products">
       <EntityTypeMapping TypeName="GetCoffeeDBModel.Product">
         <MappingFragment StoreEntitySet="Product">
           <ScalarProperty Name="code" ColumnName="code" />
@@ -32,7 +32,7 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
-    <EntitySetMapping Name="Shop">
+    <EntitySetMapping Name="Shops">
       <EntityTypeMapping TypeName="GetCoffeeDBModel.Shop">
         <MappingFragment StoreEntitySet="Shop">
           <ScalarProperty Name="code" ColumnName="code" />
@@ -59,7 +59,7 @@
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="sysdiagrams">
-      <EntityTypeMapping TypeName="GetCoffeeDBModel.sysdiagrams">
+      <EntityTypeMapping TypeName="GetCoffeeDBModel.sysdiagram">
         <MappingFragment StoreEntitySet="sysdiagrams">
           <ScalarProperty Name="name" ColumnName="name" />
           <ScalarProperty Name="principal_id" ColumnName="principal_id" />

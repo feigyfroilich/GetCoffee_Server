@@ -22,7 +22,7 @@ namespace BLL.convertions
         public static List<CategoryDTO> DALListToDTO(List<Category> categories)
         {
             List<CategoryDTO> categoryDTOList = new List<CategoryDTO>();
-            categories.ForEach(category => categoryDTOList.Add(ShopConverter.DALToDTO(category)));
+            categories.ForEach(category => categoryDTOList.Add(CategoryConverter.DALToDTO(category)));
             return categoryDTOList;
         }
 

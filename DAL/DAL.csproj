@@ -51,68 +51,66 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Category.cs">
-      <DependentUpon>GetCoffeeModel.tt</DependentUpon>
+      <DependentUpon>GetCoffee.tt</DependentUpon>
     </Compile>
     <Compile Include="Class1.cs" />
-    <Compile Include="GetCoffeeModel.Context.cs">
+    <Compile Include="GetCoffee.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>GetCoffeeModel.Context.tt</DependentUpon>
+      <DependentUpon>GetCoffee.Context.tt</DependentUpon>
     </Compile>
-    <Compile Include="GetCoffeeModel.cs">
+    <Compile Include="GetCoffee.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>GetCoffeeModel.tt</DependentUpon>
+      <DependentUpon>GetCoffee.tt</DependentUpon>
     </Compile>
-    <Compile Include="GetCoffeeModel.Designer.cs">
+    <Compile Include="GetCoffee.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>GetCoffeeModel.edmx</DependentUpon>
+      <DependentUpon>GetCoffee.edmx</DependentUpon>
     </Compile>
     <Compile Include="Order.cs">
-      <DependentUpon>GetCoffeeModel.tt</DependentUpon>
+      <DependentUpon>GetCoffee.tt</DependentUpon>
     </Compile>
     <Compile Include="Product.cs">
-      <DependentUpon>GetCoffeeModel.tt</DependentUpon>
+      <DependentUpon>GetCoffee.tt</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Shop.cs">
-      <DependentUpon>GetCoffeeModel.tt</DependentUpon>
+      <DependentUpon>GetCoffee.tt</DependentUpon>
     </Compile>
     <Compile Include="Shop_sProduct.cs">
-      <DependentUpon>GetCoffeeModel.tt</DependentUpon>
+      <DependentUpon>GetCoffee.tt</DependentUpon>
     </Compile>
     <Compile Include="sysdiagram.cs">
-      <DependentUpon>GetCoffeeModel.tt</DependentUpon>
+      <DependentUpon>GetCoffee.tt</DependentUpon>
     </Compile>
-  </ItemGroup>
-  <ItemGroup>
-    <EntityDeploy Include="GetCoffeeModel.edmx">
-      <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>GetCoffeeModel.Designer.cs</LastGenOutput>
-    </EntityDeploy>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.Config" />
-    <None Include="GetCoffeeModel.edmx.diagram">
-      <DependentUpon>GetCoffeeModel.edmx</DependentUpon>
+    <EntityDeploy Include="GetCoffee.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>GetCoffee.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="GetCoffee.edmx.diagram">
+      <DependentUpon>GetCoffee.edmx</DependentUpon>
     </None>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="GetCoffeeModel.Context.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>GetCoffeeModel.Context.cs</LastGenOutput>
-      <DependentUpon>GetCoffeeModel.edmx</DependentUpon>
-    </Content>
-    <Content Include="GetCoffeeModel.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>GetCoffeeModel.edmx</DependentUpon>
-      <LastGenOutput>GetCoffeeModel.cs</LastGenOutput>
-    </Content>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <ItemGroup>
-    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+    <Content Include="GetCoffee.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>GetCoffee.edmx</DependentUpon>
+      <LastGenOutput>GetCoffee.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="GetCoffee.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>GetCoffee.edmx</DependentUpon>
+      <LastGenOutput>GetCoffee.cs</LastGenOutput>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

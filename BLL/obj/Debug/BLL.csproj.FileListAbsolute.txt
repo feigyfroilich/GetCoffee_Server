@@ -24,3 +24,16 @@ E:\פרויקט גמר\_final project\getcoffee\GetCoffeeAPI\BLL\bin\Debug\DAL.p
 E:\פרויקט גמר\_final project\getcoffee\GetCoffeeAPI\BLL\bin\Debug\DAL.dll.config
 E:\פרויקט גמר\_final project\getcoffee\GetCoffeeAPI\BLL\bin\Debug\DTO.pdb
 E:\פרויקט גמר\_final project\getcoffee\GetCoffeeAPI\BLL\bin\Debug\EntityFramework.xml
+D:\feigy\aaa-tecnology\getCoffee\getCoffee_server\GetCoffee_Server\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+D:\feigy\aaa-tecnology\getCoffee\getCoffee_server\GetCoffee_Server\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+D:\feigy\aaa-tecnology\getCoffee\getCoffee_server\GetCoffee_Server\BLL\obj\Debug\BLL.dll
+D:\feigy\aaa-tecnology\getCoffee\getCoffee_server\GetCoffee_Server\BLL\obj\Debug\BLL.pdb
+D:\feigy\aaa-tecnology\getCoffee\getCoffee_server\GetCoffee_Server\BLL\bin\Debug\BLL.dll
+D:\feigy\aaa-tecnology\getCoffee\getCoffee_server\GetCoffee_Server\BLL\bin\Debug\BLL.pdb
+D:\feigy\aaa-tecnology\getCoffee\getCoffee_server\GetCoffee_Server\BLL\bin\Debug\DAL.dll
+D:\feigy\aaa-tecnology\getCoffee\getCoffee_server\GetCoffee_Server\BLL\bin\Debug\DTO.dll
+D:\feigy\aaa-tecnology\getCoffee\getCoffee_server\GetCoffee_Server\BLL\bin\Debug\DAL.pdb
+D:\feigy\aaa-tecnology\getCoffee\getCoffee_server\GetCoffee_Server\BLL\bin\Debug\DAL.dll.config
+D:\feigy\aaa-tecnology\getCoffee\getCoffee_server\GetCoffee_Server\BLL\bin\Debug\DTO.pdb
+D:\feigy\aaa-tecnology\getCoffee\getCoffee_server\GetCoffee_Server\BLL\bin\Debug\EntityFramework.xml
+D:\feigy\aaa-tecnology\getCoffee\getCoffee_server\GetCoffee_Server\BLL\obj\Debug\BLL.csproj.CopyComplete

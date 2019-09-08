@@ -21,3 +21,15 @@ E:\פרויקט גמר\_final project\getcoffee\GetCoffeeAPI\DTO\obj\Debug\DTO.c
 E:\פרויקט גמר\_final project\getcoffee\GetCoffeeAPI\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
 E:\פרויקט גמר\_final project\getcoffee\GetCoffeeAPI\DTO\obj\Debug\DTO.dll
 E:\פרויקט גמר\_final project\getcoffee\GetCoffeeAPI\DTO\obj\Debug\DTO.pdb
+D:\feigy\aaa-tecnology\getCoffee\getCoffee_server\GetCoffee_Server\DTO\bin\Debug\DTO.dll
+D:\feigy\aaa-tecnology\getCoffee\getCoffee_server\GetCoffee_Server\DTO\bin\Debug\DTO.pdb
+D:\feigy\aaa-tecnology\getCoffee\getCoffee_server\GetCoffee_Server\DTO\bin\Debug\DAL.dll
+D:\feigy\aaa-tecnology\getCoffee\getCoffee_server\GetCoffee_Server\DTO\bin\Debug\DAL.pdb
+D:\feigy\aaa-tecnology\getCoffee\getCoffee_server\GetCoffee_Server\DTO\bin\Debug\DAL.dll.config
+D:\feigy\aaa-tecnology\getCoffee\getCoffee_server\GetCoffee_Server\DTO\obj\Debug\DTO.csprojAssemblyReference.cache
+D:\feigy\aaa-tecnology\getCoffee\getCoffee_server\GetCoffee_Server\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+D:\feigy\aaa-tecnology\getCoffee\getCoffee_server\GetCoffee_Server\DTO\obj\Debug\DTO.csproj.CopyComplete
+D:\feigy\aaa-tecnology\getCoffee\getCoffee_server\GetCoffee_Server\DTO\obj\Debug\DTO.dll
+D:\feigy\aaa-tecnology\getCoffee\getCoffee_server\GetCoffee_Server\DTO\obj\Debug\DTO.pdb
+D:\feigy\aaa-tecnology\getCoffee\getCoffee_server\GetCoffee_Server\DTO\bin\Debug\EntityFramework.dll
+D:\feigy\aaa-tecnology\getCoffee\getCoffee_server\GetCoffee_Server\DTO\bin\Debug\EntityFramework.xml

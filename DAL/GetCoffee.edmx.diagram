@@ -4,8 +4,8 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="05b526f03bbd4ba7847ed699b6036849" Name="Diagram1">
-        <EntityTypeShape EntityType="GetCoffeeDBModel.Category" Width="1.5" PointX="3" PointY="4.875" IsExpanded="true" />
+      <Diagram DiagramId="a77b1e1810554122aed7d88a3c14db4d" Name="Diagram1">
+        <EntityTypeShape EntityType="GetCoffeeDBModel.Category" Width="1.5" PointX="3" PointY="5.5" IsExpanded="true" />
         <EntityTypeShape EntityType="GetCoffeeDBModel.Order" Width="1.5" PointX="3" PointY="1.125" IsExpanded="true" />
         <EntityTypeShape EntityType="GetCoffeeDBModel.Product" Width="1.5" PointX="5.25" PointY="1.5" IsExpanded="true" />
         <EntityTypeShape EntityType="GetCoffeeDBModel.Shop" Width="1.5" PointX="0.75" PointY="1" IsExpanded="true" />
