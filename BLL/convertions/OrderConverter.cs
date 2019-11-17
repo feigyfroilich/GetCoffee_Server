@@ -29,5 +29,21 @@ namespace BLL.convertions
             orders.ForEach(order => orderDTOList.Add(OrderConverter.DALToDTO(order)));
             return orderDTOList;
         }
+
+        public static Order DTOToDAL(OrderDTO order)
+        {
+            return new Order
+            {
+
+                shopCode = order.shopCode,
+                date = order.date,
+                deadline = order.deadline,
+                takeTime = order.takeTime,
+                ready = order.ready,
+                status = order.status,
+                code = order.code
+            };
+        }
+
     }
 }

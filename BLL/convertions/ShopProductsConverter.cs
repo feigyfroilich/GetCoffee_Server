@@ -27,6 +27,17 @@ namespace BLL.convertions
             shopProductslist.ForEach(shopProducts => shopProductsDTOList.Add(ShopProductsConverter.DALToDTO(shopProducts)));
             return shopProductsDTOList;
         }
+        public static Shop_sProduct DTOToDAL(ShopProductsDTO shopProduct)
+        {
+            return new Shop_sProduct
+            {
+                productCode = shopProduct.productCode,
+                shopCode = shopProduct.shopCode,
+                price = shopProduct.price,
+                duration = shopProduct.duration,
+                status = shopProduct.status
+            };
+        }
 
 
 

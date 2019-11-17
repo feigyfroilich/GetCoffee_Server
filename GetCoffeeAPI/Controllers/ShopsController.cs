@@ -11,9 +11,11 @@ using System.Web.Http.Description;
 using DAL;
 using DTO;
 using BLL;
+using System.Web.Http.Cors;
 
 namespace GetCoffeeAPI.Controllers
 {
+    [EnableCors(origins: "*", headers: "*", methods: "*")]
     public class ShopsController : ApiController
     {
 

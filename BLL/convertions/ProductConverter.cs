@@ -27,5 +27,15 @@ namespace BLL.convertions
             return productDTOList;
         }
 
+        public static Product DTOToDAL(ProductDTO product)
+        {
+            return new Product
+            {
+                code = product.code,
+                name = product.name,
+                categoryCode = product.categoryCode
+            };
+        }
+
     }
 }

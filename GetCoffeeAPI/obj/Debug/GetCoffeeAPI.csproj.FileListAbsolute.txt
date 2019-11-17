@@ -288,3 +288,6 @@ D:\feigy\aaa-tecnology\getCoffee\getCoffee_server\GetCoffee_Server\GetCoffeeAPI\
 D:\feigy\aaa-tecnology\getCoffee\getCoffee_server\GetCoffee_Server\GetCoffeeAPI\bin\Microsoft.AspNet.TelemetryCorrelation.xml
 D:\feigy\aaa-tecnology\getCoffee\getCoffee_server\GetCoffee_Server\GetCoffeeAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 D:\feigy\aaa-tecnology\getCoffee\getCoffee_server\GetCoffee_Server\GetCoffeeAPI\obj\Debug\GetCoffeeAPI.csproj.CopyComplete
+D:\feigy\aaa-tecnology\getCoffee\getCoffee_server\GetCoffee_Server\GetCoffeeAPI\bin\System.Web.Cors.dll
+D:\feigy\aaa-tecnology\getCoffee\getCoffee_server\GetCoffee_Server\GetCoffeeAPI\bin\System.Web.Http.Cors.dll
+D:\feigy\aaa-tecnology\getCoffee\getCoffee_server\GetCoffee_Server\GetCoffeeAPI\bin\System.Web.Http.Cors.xml

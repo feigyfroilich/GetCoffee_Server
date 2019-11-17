@@ -26,7 +26,17 @@ namespace BLL.convertions
             return categoryDTOList;
         }
 
-        
+        public static Category DTOToDAL(CategoryDTO category)
+        {
+            return new Category
+            {
+                code = category.code,
+                name = category.name,
+                parentCode = category.parentCode
+            };
+        }
+
+
 
     }
 }

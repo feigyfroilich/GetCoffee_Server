@@ -11,6 +11,9 @@ namespace GetCoffeeAPI
         {
             // Web API configuration and services
 
+            var cors = new System.Web.Http.Cors.EnableCorsAttribute("*", "*", "*");
+            config.EnableCors(cors);
+
             // Web API routes
             config.MapHttpAttributeRoutes();
 
