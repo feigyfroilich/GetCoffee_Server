@@ -18,6 +18,7 @@ namespace BLL
 
                 return ShopConverter.DALListToDTO(db.Shops.ToList());
 
+
             }
         }
         public static ShopDTO GetShopById(long id)
