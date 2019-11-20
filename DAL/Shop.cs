@@ -14,8 +14,6 @@ namespace DAL
     
     public partial class Shop
     {
-        public long categoryCode;
-
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
         public Shop()
         {

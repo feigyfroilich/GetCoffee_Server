@@ -31,5 +31,6 @@ namespace DAL
         public virtual DbSet<Shop> Shops { get; set; }
         public virtual DbSet<Shop_sProduct> Shop_sProduct { get; set; }
         public virtual DbSet<sysdiagram> sysdiagrams { get; set; }
+        public virtual DbSet<User> Users { get; set; }
     }
 }

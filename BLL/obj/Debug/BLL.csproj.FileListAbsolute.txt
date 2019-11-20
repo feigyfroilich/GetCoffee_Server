@@ -35,5 +35,4 @@ D:\feigy\aaa-tecnology\getCoffee\getCoffee_server\GetCoffee_Server\BLL\bin\Debug
 D:\feigy\aaa-tecnology\getCoffee\getCoffee_server\GetCoffee_Server\BLL\bin\Debug\DAL.pdb
 D:\feigy\aaa-tecnology\getCoffee\getCoffee_server\GetCoffee_Server\BLL\bin\Debug\DAL.dll.config
 D:\feigy\aaa-tecnology\getCoffee\getCoffee_server\GetCoffee_Server\BLL\bin\Debug\DTO.pdb
-D:\feigy\aaa-tecnology\getCoffee\getCoffee_server\GetCoffee_Server\BLL\bin\Debug\EntityFramework.xml
 D:\feigy\aaa-tecnology\getCoffee\getCoffee_server\GetCoffee_Server\BLL\obj\Debug\BLL.csproj.CopyComplete

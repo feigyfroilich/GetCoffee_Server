@@ -28,8 +28,8 @@ D:\feigy\aaa-tecnology\getCoffee\getCoffee_server\GetCoffee_Server\DAL\bin\Debug
 D:\feigy\aaa-tecnology\getCoffee\getCoffee_server\GetCoffee_Server\DAL\bin\Debug\EntityFramework.SqlServer.dll
 D:\feigy\aaa-tecnology\getCoffee\getCoffee_server\GetCoffee_Server\DAL\bin\Debug\EntityFramework.xml
 D:\feigy\aaa-tecnology\getCoffee\getCoffee_server\GetCoffee_Server\DAL\bin\Debug\EntityFramework.SqlServer.xml
-D:\feigy\aaa-tecnology\getCoffee\getCoffee_server\GetCoffee_Server\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
 D:\feigy\aaa-tecnology\getCoffee\getCoffee_server\GetCoffee_Server\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
 D:\feigy\aaa-tecnology\getCoffee\getCoffee_server\GetCoffee_Server\DAL\obj\Debug\DAL.csproj.CopyComplete
 D:\feigy\aaa-tecnology\getCoffee\getCoffee_server\GetCoffee_Server\DAL\obj\Debug\DAL.dll
 D:\feigy\aaa-tecnology\getCoffee\getCoffee_server\GetCoffee_Server\DAL\obj\Debug\DAL.pdb
+D:\feigy\aaa-tecnology\getCoffee\getCoffee_server\GetCoffee_Server\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
