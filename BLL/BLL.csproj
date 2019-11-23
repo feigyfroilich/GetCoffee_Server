@@ -46,6 +46,7 @@
     <Compile Include="convertions\CategoryConverter.cs" />
     <Compile Include="convertions\OrderConverter.cs" />
     <Compile Include="convertions\ShopProductsConverter.cs" />
+    <Compile Include="convertions\UsersConverter.cs" />
     <Compile Include="Global.cs" />
     <Compile Include="convertions\ProductConverter.cs" />
     <Compile Include="convertions\ShopConverter.cs" />
@@ -54,6 +55,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ShopBLL.cs" />
     <Compile Include="ShopProductsBLL.cs" />
+    <Compile Include="usersBLL.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DAL\DAL.csproj">

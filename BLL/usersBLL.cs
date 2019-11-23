@@ -7,36 +7,37 @@ using DAL;
 using DTO;
 using BLL.convertions;
 using System.Data.Entity;
+
 namespace BLL
 {
-    public class ShopBLL
+    class usersBLL
     {
-        public static List<ShopDTO> GetShops()
+        public static List<UsersDTO> GetUsers()
         {
             using (GetCoffeeDBEntities db = new GetCoffeeDBEntities())
             {
 
-                return ShopConverter.DALListToDTO(db.Shops.ToList());
+                return UsersConverter.DALListToDTO(db.Users.ToList());
 
 
             }
         }
-        public static ShopDTO GetShopById(long id)
+        public static UsersDTO GetUsersById(long id)
         {
             using (GetCoffeeDBEntities db = new GetCoffeeDBEntities())
             {
 
-                return ShopConverter.DALToDTO(db.Shops.Find(id));
+                return UsersConverter.DALToDTO(db.Users.Find(id));
             }
         }
-        public static bool DeleteShop(long id)
+        public static bool DeleteUser(long id)
         {
             using (GetCoffeeDBEntities db = new GetCoffeeDBEntities())
             {
-                Shop shop = db.Shops.Find(id);
-                if (shop == null)
+                User user = db.Users.Find(id);
+                if (user == null)
                     return false;
-                db.Shops.Remove(shop);
+                db.Users.Remove(user);
                 db.SaveChanges();
             }
             return true;
@@ -48,18 +49,18 @@ namespace BLL
                 return db.Shops.Count(e => e.code == id) > 0;
             }
         }
-        public static void Entry(Shop shop)
+        public static void Entry(User user)
         {
             using (GetCoffeeDBEntities db = new GetCoffeeDBEntities())
             {
-                db.Entry(shop).State = EntityState.Modified;
+                db.Entry(user).State = EntityState.Modified;
             }
         }
-        public static void Add(Shop shop)
+        public static void Add(User user)
         {
             using (GetCoffeeDBEntities db = new GetCoffeeDBEntities())
             {
-                db.Shops.Add(shop);
+                db.Users.Add(user);
             }
         }
     }
