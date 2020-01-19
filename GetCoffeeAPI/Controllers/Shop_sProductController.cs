@@ -27,7 +27,7 @@ namespace GetCoffeeAPI.Controllers
         [ResponseType(typeof(Shop_sProduct))]
         public IHttpActionResult GetShop_sProduct(long id)
         {
-            ShopProductsDTO shop = ShopProductsBLL.GetShopProductsById(id);
+           List< ShopProductsDTO> shop = ShopProductsBLL.GetShopProductsById(id);
             if (shop == null)
             {
                 return NotFound();
@@ -69,6 +69,24 @@ namespace GetCoffeeAPI.Controllers
             }
 
             return StatusCode(HttpStatusCode.NoContent);
+        }
+
+        // PUT: api/Shop_sProduct
+        [Route("api/test")]
+        [ResponseType(typeof(void))]
+        public IHttpActionResult PutShop_sProduct([FromBody] List<ProductDTO> shop_sProducts)
+        {
+            try
+            {
+                ShopProductsBLL.updateShopProducts(shop_sProducts);
+ return Ok( );
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+           
         }
 
         // POST: api/Shop_sProduct

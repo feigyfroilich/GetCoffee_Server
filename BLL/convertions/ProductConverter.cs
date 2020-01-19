@@ -37,5 +37,14 @@ namespace BLL.convertions
             };
         }
 
+        public static List<Product> DTOsToDALs(List< ProductDTO> products)
+        {
+         List<Product> newList = new List<Product>();
+            products.ForEach(p => { newList.Add(DTOToDAL(p)); });
+            return newList;
+        }
+
+        
+
     }
 }

@@ -13,5 +13,7 @@ namespace DTO
         public decimal price { get; set; }
         public System.TimeSpan duration { get; set; }
         public bool status { get; set; }
+        public string name { get; set; }
+        public string categoryName { get; set; }
     }
 }
