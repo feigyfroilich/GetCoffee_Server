@@ -30,12 +30,12 @@ namespace BLL
             }
         }
 
-        public static void updateShopProducts( List<ProductDTO> shop_sProducts)
+        public static void updateShopProducts( List<ShopProductsDTO> shop_sProducts)
         {
             using (GetCoffeeDBEntities db = new GetCoffeeDBEntities())
             {
 
-                List<Product> products = ProductConverter.DTOsToDALs(shop_sProducts);
+                List<Shop_sProduct> products = ShopProductsConverter.DTOsToDALs(shop_sProducts);
                 products.ForEach(item =>
                 {
                     db.Entry(item).State = EntityState.Modified;
