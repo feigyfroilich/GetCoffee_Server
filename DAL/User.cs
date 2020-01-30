@@ -17,5 +17,8 @@ namespace DAL
         public int id { get; set; }
         public string name { get; set; }
         public string password { get; set; }
+        public Nullable<long> shopId { get; set; }
+    
+        public virtual Shop Shop { get; set; }
     }
 }

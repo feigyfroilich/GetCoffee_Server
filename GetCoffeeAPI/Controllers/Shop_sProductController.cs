@@ -72,7 +72,6 @@ namespace GetCoffeeAPI.Controllers
         }
 
         // PUT: api/Shop_sProduct
-        [Route("api/test")]
         [ResponseType(typeof(void))]
         public IHttpActionResult PutShop_sProduct([FromBody] List<ShopProductsDTO> shop_sProducts)
         {

@@ -18,6 +18,7 @@ namespace DAL
         public Shop()
         {
             this.Orders = new HashSet<Order>();
+            this.Users = new HashSet<User>();
             this.Shop_sProduct = new HashSet<Shop_sProduct>();
         }
     
@@ -30,9 +31,14 @@ namespace DAL
         public Nullable<int> rank { get; set; }
         public Nullable<long> numOfCustomer { get; set; }
         public Nullable<long> accountNumber { get; set; }
+        public Nullable<double> lat { get; set; }
+        public Nullable<double> @long { get; set; }
+        public Nullable<long> categoryCode { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Order> Orders { get; set; }
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<User> Users { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Shop_sProduct> Shop_sProduct { get; set; }
     }

@@ -16,7 +16,8 @@ namespace BLL.convertions
             {
                 id = user.id,
                 name = user.name,
-                password = user.password
+                password = user.password,
+                shopId = user.shopId
             };
         }
         public static List<UsersDTO> DALListToDTO(List<User> users)
@@ -32,7 +33,8 @@ namespace BLL.convertions
             {
                 id = user.id,
                 name = user.name,
-                password = user.password
+                password = user.password,
+                shopId = user.shopId
             };
         }
     }
