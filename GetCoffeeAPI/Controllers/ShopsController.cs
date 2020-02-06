@@ -72,7 +72,7 @@ namespace GetCoffeeAPI.Controllers
 
             return StatusCode(HttpStatusCode.NoContent);
         }
-
+        
         // POST: api/Shops
         [ResponseType(typeof(Shop))]
         public IHttpActionResult PostShop(Shop shop)

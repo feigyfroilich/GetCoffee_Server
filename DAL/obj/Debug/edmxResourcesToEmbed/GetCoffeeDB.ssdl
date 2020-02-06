@@ -27,6 +27,7 @@
     </Key>
     <Property Name="orderCode" Type="bigint" Nullable="false" />
     <Property Name="productCode" Type="bigint" Nullable="false" />
+    <Property Name="amount" Type="int" />
   </EntityType>
   <EntityType Name="Product">
     <Key>

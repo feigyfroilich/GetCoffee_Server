@@ -17,8 +17,8 @@ namespace DAL
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
         public Product()
         {
+            this.OrderProducts = new HashSet<OrderProduct>();
             this.Shop_sProduct = new HashSet<Shop_sProduct>();
-            this.Orders = new HashSet<Order>();
         }
     
         public long code { get; set; }
@@ -27,8 +27,8 @@ namespace DAL
     
         public virtual Category Category { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<Shop_sProduct> Shop_sProduct { get; set; }
+        public virtual ICollection<OrderProduct> OrderProducts { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<Order> Orders { get; set; }
+        public virtual ICollection<Shop_sProduct> Shop_sProduct { get; set; }
     }
 }

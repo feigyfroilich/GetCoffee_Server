@@ -60,6 +60,7 @@ namespace BLL
             using (GetCoffeeDBEntities db = new GetCoffeeDBEntities())
             {
                 db.Shops.Add(shop);
+                db.SaveChanges();
             }
         }
     }

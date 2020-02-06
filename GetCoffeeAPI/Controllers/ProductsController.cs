@@ -16,8 +16,6 @@ namespace GetCoffeeAPI.Controllers
 {
     public class ProductsController : ApiController
     {
-
-
         // GET: api/Products
         public IHttpActionResult GetProducts()
         {
@@ -82,7 +80,6 @@ namespace GetCoffeeAPI.Controllers
             }
 
             ProductBLL.Add(product);
-
             try
             {
                 Global.SaveChanges();
