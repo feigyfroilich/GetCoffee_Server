@@ -96,7 +96,10 @@ namespace GetCoffeeAPI.Controllers
             {
                 return BadRequest(ModelState);
             }
+            TimeSpan time = TimeSpan.Parse(shop_sProduct.duration.ToString());
 
+            //string ts = TimeSpan.fromMinutes(this.prepareTime);
+            shop_sProduct.duration = time;
             ShopProductsBLL.Add(shop_sProduct);
 
             try

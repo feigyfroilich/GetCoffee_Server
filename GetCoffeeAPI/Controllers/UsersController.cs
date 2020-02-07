@@ -7,20 +7,23 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
+using System.Web.Http.Cors;
 using System.Web.Http.Description;
 using DAL;
+using BLL;
 
 namespace GetCoffeeAPI.Controllers
 {
+        [EnableCors(origins: "*", headers: "*", methods: "*")]
     public class UsersController : ApiController
     {
         private GetCoffeeDBEntities db = new GetCoffeeDBEntities();
 
         // GET: api/Users
-        public IQueryable<User> GetUsers()
+        public IHttpActionResult GetUsers()
         {
 
-            return db.Users;
+            return Ok(usersBLL.GetUsers());
         }
 
         // GET: api/Users/5

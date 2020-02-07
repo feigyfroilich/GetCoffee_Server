@@ -10,7 +10,7 @@ using System.Data.Entity;
 
 namespace BLL
 {
-    class usersBLL
+  public  class usersBLL
     {
         public static List<UsersDTO> GetUsers()
         {
