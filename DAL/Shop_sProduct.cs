@@ -14,13 +14,11 @@ namespace DAL
     
     public partial class Shop_sProduct
     {
+        public int code { get; set; }
         public long productCode { get; set; }
         public long shopCode { get; set; }
-        public decimal price { get; set; }
-        public System.TimeSpan duration { get; set; }
+        public int price { get; set; }
+        public int duration { get; set; }
         public bool status { get; set; }
-    
-        public virtual Product Product { get; set; }
-        public virtual Shop Shop { get; set; }
     }
 }

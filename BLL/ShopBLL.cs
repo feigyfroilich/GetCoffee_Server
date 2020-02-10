@@ -53,6 +53,7 @@ namespace BLL
             using (GetCoffeeDBEntities db = new GetCoffeeDBEntities())
             {
                 db.Entry(shop).State = EntityState.Modified;
+                
             }
         }
         public static void Add(Shop shop)

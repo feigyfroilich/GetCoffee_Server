@@ -18,7 +18,6 @@ namespace DAL
         public Product()
         {
             this.OrderProducts = new HashSet<OrderProduct>();
-            this.Shop_sProduct = new HashSet<Shop_sProduct>();
         }
     
         public long code { get; set; }
@@ -28,7 +27,5 @@ namespace DAL
         public virtual Category Category { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<OrderProduct> OrderProducts { get; set; }
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<Shop_sProduct> Shop_sProduct { get; set; }
     }
 }

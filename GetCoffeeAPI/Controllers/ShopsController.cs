@@ -53,7 +53,6 @@ namespace GetCoffeeAPI.Controllers
             }
 
             ShopBLL.Entry(shop);
-
             try
             {
                 Global.SaveChanges();

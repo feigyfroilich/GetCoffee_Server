@@ -59,17 +59,6 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
-    <EntitySetMapping Name="Shop_sProduct">
-      <EntityTypeMapping TypeName="GetCoffeeDBModel.Shop_sProduct">
-        <MappingFragment StoreEntitySet="Shop'sProduct">
-          <ScalarProperty Name="productCode" ColumnName="productCode" />
-          <ScalarProperty Name="shopCode" ColumnName="shopCode" />
-          <ScalarProperty Name="price" ColumnName="price" />
-          <ScalarProperty Name="duration" ColumnName="duration" />
-          <ScalarProperty Name="status" ColumnName="status" />
-        </MappingFragment>
-      </EntityTypeMapping>
-    </EntitySetMapping>
     <EntitySetMapping Name="sysdiagrams">
       <EntityTypeMapping TypeName="GetCoffeeDBModel.sysdiagram">
         <MappingFragment StoreEntitySet="sysdiagrams">
@@ -88,6 +77,18 @@
           <ScalarProperty Name="name" ColumnName="name" />
           <ScalarProperty Name="password" ColumnName="password" />
           <ScalarProperty Name="shopId" ColumnName="shopId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Shop_sProduct">
+      <EntityTypeMapping TypeName="GetCoffeeDBModel.Shop_sProduct">
+        <MappingFragment StoreEntitySet="Shop'sProduct">
+          <ScalarProperty Name="code" ColumnName="code" />
+          <ScalarProperty Name="productCode" ColumnName="productCode" />
+          <ScalarProperty Name="shopCode" ColumnName="shopCode" />
+          <ScalarProperty Name="price" ColumnName="price" />
+          <ScalarProperty Name="duration" ColumnName="duration" />
+          <ScalarProperty Name="status" ColumnName="status" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
