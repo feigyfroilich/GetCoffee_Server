@@ -13,8 +13,8 @@ namespace DTO
         public string location { get; set; }
         public string loginCode { get; set; }
         public bool shipment { get; set; }
-        public long lat { get; set; }
-        public long longi { get; set; }
+        public string latitude { get; set; }
+        public string longitude { get; set; }
         public Nullable<bool> status { get; set; }
         public Nullable<int> rank { get; set; }
         public Nullable<long> numOfCustomer { get; set; }

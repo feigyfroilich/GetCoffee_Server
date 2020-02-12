@@ -58,13 +58,15 @@ namespace BLL
             }
            return ShopConverter.DALToDTO(shopDal);
         }
-        public static void Add(ShopDTO shop)
+        public static ShopDTO Add(ShopDTO shop)
         {
+            Shop s = ShopConverter.DTOToDAL(shop);
             using (GetCoffeeDBEntities db = new GetCoffeeDBEntities())
             {
-                db.Shops.Add(ShopConverter.DTOToDAL( shop));
+                db.Shops.Add(s);
                 db.SaveChanges();
             }
+            return ShopConverter.DALToDTO(s);
         }
     }
 }

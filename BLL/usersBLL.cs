@@ -56,12 +56,15 @@ namespace BLL
                 db.Entry(user).State = EntityState.Modified;
             }
         }
-        public static void Add(User user)
+        public static UsersDTO Add(UsersDTO userD)
         {
+            User user = UsersConverter.DTOToDAL(userD);
             using (GetCoffeeDBEntities db = new GetCoffeeDBEntities())
             {
                 db.Users.Add(user);
+                db.SaveChanges();
             }
+            return UsersConverter.DALToDTO(user);
         }
     }
 }

@@ -11,6 +11,7 @@ using System.Web.Http.Cors;
 using System.Web.Http.Description;
 using DAL;
 using BLL;
+using DTO;
 
 namespace GetCoffeeAPI.Controllers
 {
@@ -75,18 +76,16 @@ namespace GetCoffeeAPI.Controllers
         }
 
         // POST: api/Users
-        [ResponseType(typeof(User))]
-        public IHttpActionResult PostUser(User user)
+        [ResponseType(typeof(UsersDTO))]
+        public IHttpActionResult PostUser(UsersDTO user)
         {
             if (!ModelState.IsValid)
             {
                 return BadRequest(ModelState);
             }
+            UsersDTO u = usersBLL.Add(user);
 
-            db.Users.Add(user);
-            db.SaveChanges();
-
-            return CreatedAtRoute("DefaultApi", new { id = user.id }, user);
+            return Ok(u);
         }
 
         // DELETE: api/Users/5

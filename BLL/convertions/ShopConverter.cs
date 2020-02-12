@@ -23,8 +23,8 @@ namespace BLL.convertions
                 rank = shop.rank,
                 numOfCustomer = shop.numOfCustomer,
                 accountNumber = shop.accountNumber,
-                lat = (long)shop.lat,
-                longi = (long)shop.@long
+                latitude = shop.latitude,
+                longitude = shop.longitude
             };
         }
         public static List<ShopDTO> DALListToDTO(List<Shop> shops)
@@ -47,8 +47,8 @@ namespace BLL.convertions
                 rank = shop.rank,
                 numOfCustomer = shop.numOfCustomer,
                 accountNumber = shop.accountNumber,
-                lat = shop.lat,
-                @long = shop.longi
+                latitude = shop.latitude,
+                longitude = shop.longitude
             };
         }
 

@@ -66,9 +66,9 @@ namespace GetCoffeeAPI.Controllers
                 return BadRequest(ModelState);
             }
 
-            ShopBLL.Add(shop);
+           ShopDTO s = ShopBLL.Add(shop);
 
-            return CreatedAtRoute("DefaultApi", new { id = shop.code }, shop);
+            return Ok(s);
         }
 
         // DELETE: api/Shops/5
