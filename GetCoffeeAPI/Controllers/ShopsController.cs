@@ -40,7 +40,7 @@ namespace GetCoffeeAPI.Controllers
 
         // PUT: api/Shops/5
         [ResponseType(typeof(void))]
-        public IHttpActionResult PutShop(long id, Shop shop)
+        public IHttpActionResult PutShop(long id, ShopDTO shop)
         {
             if (!ModelState.IsValid)
             {
@@ -52,29 +52,14 @@ namespace GetCoffeeAPI.Controllers
                 return BadRequest();
             }
 
-            ShopBLL.Entry(shop);
-            try
-            {
-                Global.SaveChanges();
-            }
-            catch (DbUpdateConcurrencyException)
-            {
-                if (!ShopExists(id))
-                {
-                    return NotFound();
-                }
-                else
-                {
-                    throw;
-                }
-            }
+           ShopDTO updatedUser =  ShopBLL.Entry(shop);
 
-            return StatusCode(HttpStatusCode.NoContent);
+            return Ok(updatedUser);
         }
         
         // POST: api/Shops
-        [ResponseType(typeof(Shop))]
-        public IHttpActionResult PostShop(Shop shop)
+        [ResponseType(typeof(ShopDTO))]
+        public IHttpActionResult PostShop(ShopDTO shop)
         {
             if (!ModelState.IsValid)
             {
@@ -82,22 +67,6 @@ namespace GetCoffeeAPI.Controllers
             }
 
             ShopBLL.Add(shop);
-
-            try
-            {
-                Global.SaveChanges();
-            }
-            catch (DbUpdateException)
-            {
-                if (ShopExists(shop.code))
-                {
-                    return Conflict();
-                }
-                else
-                {
-                    throw;
-                }
-            }
 
             return CreatedAtRoute("DefaultApi", new { id = shop.code }, shop);
         }

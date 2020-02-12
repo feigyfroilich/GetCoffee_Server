@@ -71,8 +71,8 @@ namespace GetCoffeeAPI.Controllers
         }
 
         // POST: api/Products
-        [ResponseType(typeof(Product))]
-        public IHttpActionResult PostProduct(Product product)
+        [ResponseType(typeof(ProductDTO))]
+        public IHttpActionResult PostProduct(ProductDTO product)
         {
             if (!ModelState.IsValid)
             {
