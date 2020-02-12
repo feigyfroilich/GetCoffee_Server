@@ -53,11 +53,11 @@ namespace BLL
                 db.Entry(product).State = EntityState.Modified;
             }
         }
-        public static void Add(Product product)
+        public static void Add(ProductDTO product)
         {
             using (GetCoffeeDBEntities db = new GetCoffeeDBEntities())
             {
-                db.Products.Add(product);
+                db.Products.Add(ProductConverter.DTOToDAL(product));
                 db.SaveChanges();
             }
         }

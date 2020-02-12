@@ -48,19 +48,21 @@ namespace BLL
                 return db.Shops.Count(e => e.code == id) > 0;
             }
         }
-        public static void Entry(Shop shop)
+        public static ShopDTO Entry(ShopDTO shop)
         {
+           Shop shopDal = ShopConverter.DTOToDAL(shop);
             using (GetCoffeeDBEntities db = new GetCoffeeDBEntities())
             {
-                db.Entry(shop).State = EntityState.Modified;
-                
+                db.Entry(shopDal).State = EntityState.Modified;
+                db.SaveChanges();
             }
+           return ShopConverter.DALToDTO(shopDal);
         }
-        public static void Add(Shop shop)
+        public static void Add(ShopDTO shop)
         {
             using (GetCoffeeDBEntities db = new GetCoffeeDBEntities())
             {
-                db.Shops.Add(shop);
+                db.Shops.Add(ShopConverter.DTOToDAL( shop));
                 db.SaveChanges();
             }
         }
