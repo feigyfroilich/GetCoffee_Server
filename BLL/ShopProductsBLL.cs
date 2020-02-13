@@ -71,13 +71,15 @@ namespace BLL
                 db.Entry(shopProducts).State = EntityState.Modified;
             }
         }
-        public static void Add(Shop_sProduct shopProducts)
+        public static ShopProductsDTO Add(ShopProductsDTO shopProducts)
         {
+            Shop_sProduct ss = ShopProductsConverter.DTOToDAL(shopProducts);
             using (GetCoffeeDBEntities db = new GetCoffeeDBEntities())
             {
-                db.Shop_sProduct.Add(shopProducts);
+                db.Shop_sProduct.Add(ss);
                 db.SaveChanges();
             }
+            return ShopProductsConverter.DALToDTO(ss);
         }
     }
 }
