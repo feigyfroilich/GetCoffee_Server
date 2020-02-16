@@ -12,10 +12,12 @@ using System.Web.Http.Description;
 using DAL;
 using BLL;
 using DTO;
+using System.Net.Mail;
+using System.Text;
 
 namespace GetCoffeeAPI.Controllers
 {
-        [EnableCors(origins: "*", headers: "*", methods: "*")]
+    [EnableCors(origins: "*", headers: "*", methods: "*")]
     public class UsersController : ApiController
     {
         private GetCoffeeDBEntities db = new GetCoffeeDBEntities();
@@ -104,6 +106,22 @@ namespace GetCoffeeAPI.Controllers
             return Ok(user);
         }
 
+        [Route("api/email")]
+        private void sendEmailViaWebApi()
+        {
+
+            new SmtpClient
+            {
+                Host = "Smtp.Gmail.com",
+                Port = 587,
+                EnableSsl = true,
+                Timeout = 10000,
+                DeliveryMethod = SmtpDeliveryMethod.Network,
+                UseDefaultCredentials = false,
+                Credentials = new NetworkCredential("feigyfroilich@gmail.com", "30121998f")
+            }.Send(new MailMessage { From = new MailAddress("feigyfroilich@gmail.com", "feigy"), To = { "wwr1109@gmail.com" }, Subject = "Get Coffee", Body = "you order is ready", BodyEncoding = Encoding.UTF8 });
+
+        }
         protected override void Dispose(bool disposing)
         {
             if (disposing)

@@ -7,6 +7,8 @@ using System.Globalization;
 using System.Linq;
 using System.Net;
 using System.Net.Http;
+using System.Net.Mail;
+using System.Text;
 using System.Web.Http;
 using System.Web.Http.Cors;
 using System.Web.Http.Description;
@@ -48,6 +50,7 @@ namespace GetCoffeeAPI.Controllers
             try
             {
                 OrderBLL.updateOrder(order);
+                sendEmailViaWebApi();
                 return Ok();
             }
             catch (Exception)
@@ -86,6 +89,23 @@ namespace GetCoffeeAPI.Controllers
             //return StatusCode(HttpStatusCode.NoContent);
         }
 
+        private void sendEmailViaWebApi()
+        {
+
+            new SmtpClient
+            {
+                Host = "Smtp.Gmail.com",
+                Port = 587,
+                EnableSsl = true,
+                Timeout = 10000,
+                DeliveryMethod = SmtpDeliveryMethod.Network,
+                UseDefaultCredentials = true,
+                Credentials = new NetworkCredential("feigyfroilich@Gmail.com", "30121998f"),
+                
+                
+        }.Send(new MailMessage { From = new MailAddress("feigyfroilich@Gmail.com", "feigy"), To = { "rachelfroilich@gmail.com" }, Subject = "Get Coffee", Body = "you order is ready", BodyEncoding = Encoding.UTF8 });
+
+        }
         // POST: api/Orders
         [ResponseType(typeof(Order))]
         public IHttpActionResult PostOrder(OrderDTO order)

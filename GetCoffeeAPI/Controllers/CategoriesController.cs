@@ -9,6 +9,7 @@ using System.Net.Http;
 using System.Web.Http;
 using System.Web.Http.Description;
 using BLL;
+using BLL.convertions;
 using DAL;
 using DTO;
 
@@ -74,14 +75,14 @@ namespace GetCoffeeAPI.Controllers
 
         // POST: api/Categories
         [ResponseType(typeof(Category))]
-        public IHttpActionResult PostCategory(Category category)
+        public IHttpActionResult PostCategory(CategoryDTO category)
         {
             if (!ModelState.IsValid)
             {
                 return BadRequest(ModelState);
             }
-
-            CategoryBLL.Add(category);
+            Category c = CategoryConverter.DTOToDAL(category);
+            CategoryBLL.Add(c);
 
             try
             {
