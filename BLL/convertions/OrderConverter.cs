@@ -16,11 +16,10 @@ namespace BLL.convertions
             {
                 code = order.code,
                 shopCode = order.shopCode,
-                date = order.date,
+                date = order.date.ToString(),
                 deadline = order.deadline,
-                takeTime = order.takeTime,
                 ready = order.ready,
-                status = order.status
+                taken = order.taken
             };
         }
         public static List<OrderDTO> DALListToDTO(List<Order> orders)
@@ -29,18 +28,18 @@ namespace BLL.convertions
             orders.ForEach(order => orderDTOList.Add(OrderConverter.DALToDTO(order)));
             return orderDTOList;
         }
-
+        
         public static Order DTOToDAL(OrderDTO order)
         {
+            DateTime myDate = DateTime.Parse(order.date);
             return new Order
             {
 
-                shopCode = order.shopCode,
-                date = order.date,
+                shopCode = order.shopCode, 
+                date = myDate,
                 deadline = order.deadline,
-                takeTime = order.takeTime,
                 ready = order.ready,
-                status = order.status,
+                taken = order.taken,
                 code = order.code
             };
         }

@@ -14,11 +14,12 @@ namespace BLL.convertions
         {
             using (GetCoffeeDBEntities db = new GetCoffeeDBEntities())
             {
-                Product p = db.Products.FirstOrDefault(pr => pr.code == shopProduct.productCode);
+                Product p = db.Products.FirstOrDefault(pr => pr.code == shopProduct.code);
                 Category c = db.Categories.FirstOrDefault(ct => ct.code == p.categoryCode);
 
                 return new ShopProductsDTO
                 {
+                    Code = shopProduct.code,
                     productCode = shopProduct.productCode,
                     shopCode = shopProduct.shopCode,
                     price = shopProduct.price,
@@ -55,6 +56,7 @@ namespace BLL.convertions
         {
             return new Shop_sProduct
             {
+                code = shopProduct.Code,
                 productCode = shopProduct.productCode,
                 shopCode = shopProduct.shopCode,
                 price = shopProduct.price,

@@ -8,6 +8,7 @@ namespace DTO
 {
     public class ShopProductsDTO
     {
+        public int Code { get; set; }
         public long productCode { get; set; }
         public long shopCode { get; set; }
         public int price { get; set; }

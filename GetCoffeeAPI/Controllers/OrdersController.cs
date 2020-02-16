@@ -3,20 +3,25 @@ using System.Collections.Generic;
 using System.Data;
 using System.Data.Entity;
 using System.Data.Entity.Infrastructure;
+using System.Globalization;
 using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
+using System.Web.Http.Cors;
 using System.Web.Http.Description;
 using BLL;
 using DAL;
 using DTO;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 
 namespace GetCoffeeAPI.Controllers
 {
+    [EnableCors(origins: "*", headers: "*", methods: "*")]
     public class OrdersController : ApiController
     {
-        
+
         // GET: api/Orders
         public IHttpActionResult GetOrders()
         {
@@ -27,7 +32,7 @@ namespace GetCoffeeAPI.Controllers
         [ResponseType(typeof(Order))]
         public IHttpActionResult GetOrder(long id)
         {
-            OrderDTO order = OrderBLL.GetOrderById(id);
+            List<OrderDTO> order = OrderBLL.GetOrderById(id);
             if (order == null)
             {
                 return NotFound();
@@ -38,67 +43,88 @@ namespace GetCoffeeAPI.Controllers
 
         // PUT: api/Orders/5
         [ResponseType(typeof(void))]
-        public IHttpActionResult PutOrder(long id, Order order)
+        public IHttpActionResult PutOrder(long id, OrderDTO order)
         {
-            if (!ModelState.IsValid)
-            {
-                return BadRequest(ModelState);
-            }
-
-            if (id != order.code)
-            {
-                return BadRequest();
-            }
-
-            OrderBLL.Entry(order);
-
             try
             {
-                Global.SaveChanges();
+                OrderBLL.updateOrder(order);
+                return Ok();
             }
-            catch (DbUpdateConcurrencyException)
+            catch (Exception)
             {
-                if (!OrderExists(id))
-                {
-                    return NotFound();
-                }
-                else
-                {
-                    throw;
-                }
-            }
 
-            return StatusCode(HttpStatusCode.NoContent);
+                throw;
+            }
+            //if (!ModelState.IsValid)
+            //{
+            //    return BadRequest(ModelState);
+            //}
+
+            //if (id != order.code)
+            //{
+            //    return BadRequest();
+            //}
+
+            //OrderBLL.updateShopProducts(order);
+
+            //try
+            //{
+            //    Global.SaveChanges();
+            //}
+            //catch (DbUpdateConcurrencyException)
+            //{
+            //    if (!OrderExists(id))
+            //    {
+            //        return NotFound();
+            //    }
+            //    else
+            //    {
+            //        throw;
+            //    }
+            //}
+
+            //return StatusCode(HttpStatusCode.NoContent);
         }
 
         // POST: api/Orders
         [ResponseType(typeof(Order))]
-        public IHttpActionResult PostOrder(Order order)
+        public IHttpActionResult PostOrder(OrderDTO order)
         {
+            //DateTime dt = DateTime.ParseExact(order.date.ToString(), "MM/dd/yyyy hh:mm:ss tt", System.Globalization.CultureInfo.InvariantCulture);
+
+            //string s = dt.ToString("dd/M/yyyy", CultureInfo.InvariantCulture);
+            //DateTime result;
+            //DateTime.TryParse(s,  out result);
+            DateTime today = DateTime.Today;
+            //var parsedObject = JObject.Parse(today.ToString());
+            //var resultingRequestJson = parsedObject["ResultingRequest"].ToString();
+            //var responseData = JsonConvert.DeserializeObject<DateTime>(resultingRequestJson);
+            order.date = today.ToString();
+            var errors = ModelState.Values.SelectMany(v => v.Errors);
             if (!ModelState.IsValid)
             {
                 return BadRequest(ModelState);
             }
+            OrderDTO o = OrderBLL.Add(order);
+            return Ok(o);
 
-            OrderBLL.Add(order);
+            //try
+            //{
+            //    Global.SaveChanges();
+            //}
+            //catch (DbUpdateException)
+            //{
+            //    if (OrderExists(order.code))
+            //    {
+            //        return Conflict();
+            //    }
+            //    else
+            //    {
+            //        throw;
+            //    }
+            //}
 
-            try
-            {
-                Global.SaveChanges();
-            }
-            catch (DbUpdateException)
-            {
-                if (OrderExists(order.code))
-                {
-                    return Conflict();
-                }
-                else
-                {
-                    throw;
-                }
-            }
-
-            return CreatedAtRoute("DefaultApi", new { id = order.code }, order);
+            //return CreatedAtRoute("DefaultApi", new { id = order.code }, order);
         }
 
         // DELETE: api/Orders/5

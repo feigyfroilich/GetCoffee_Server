@@ -21,12 +21,11 @@ namespace BLL
 
             }
         }
-        public static OrderDTO GetOrderById(long id)
+        public static List<OrderDTO> GetOrderById(long id)
         {
             using (GetCoffeeDBEntities db = new GetCoffeeDBEntities())
             {
-
-                return OrderConverter.DALToDTO(db.Orders.Find(id));
+                return OrderConverter.DALListToDTO(db.Orders.Where(order => order.shopCode == id).ToList());
             }
         }
 
@@ -58,11 +57,24 @@ namespace BLL
                 db.Entry(order).State = EntityState.Modified;
             }
         }
-        public static void Add(Order order)
+        public static OrderDTO Add(OrderDTO order)
+        {
+            Order o = OrderConverter.DTOToDAL(order);
+            using (GetCoffeeDBEntities db = new GetCoffeeDBEntities())
+            {
+                db.Orders.Add(o);
+                db.SaveChanges();
+            }
+            return OrderConverter.DALToDTO(o);
+        }
+        public static void updateOrder(OrderDTO order)
         {
             using (GetCoffeeDBEntities db = new GetCoffeeDBEntities())
             {
-                db.Orders.Add(order);
+
+                Order o = OrderConverter.DTOToDAL(order);
+                db.Entry(o).State = EntityState.Modified;
+                db.SaveChanges();
             }
         }
     }
