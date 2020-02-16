@@ -15,8 +15,7 @@ namespace BLL.convertions
             return new CategoryDTO
             {
                 code = category.code,
-                name = category.name,
-                parentCode = category.parentCode
+                name = category.name
             };
         }
         public static List<CategoryDTO> DALListToDTO(List<Category> categories)
@@ -31,9 +30,7 @@ namespace BLL.convertions
             return new Category
             {
                 code = category.code,
-                name = category.name,
-                parentCode = category.parentCode
-            };
+                name = category.name            };
         }
 
 

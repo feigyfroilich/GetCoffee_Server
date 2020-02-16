@@ -14,7 +14,7 @@ namespace BLL.convertions
         {
             using (GetCoffeeDBEntities db = new GetCoffeeDBEntities())
             {
-                Product p = db.Products.FirstOrDefault(pr => pr.code == shopProduct.code);
+                Product p = db.Products.FirstOrDefault(pr => pr.code == shopProduct.productCode);
                 Category c = db.Categories.FirstOrDefault(ct => ct.code == p.categoryCode);
 
                 return new ShopProductsDTO

@@ -63,6 +63,7 @@ namespace BLL
             using (GetCoffeeDBEntities db = new GetCoffeeDBEntities())
             {
                 db.Categories.Add(category);
+                db.SaveChanges();
             }
         }
     }

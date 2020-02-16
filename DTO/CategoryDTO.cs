@@ -10,6 +10,5 @@ namespace DTO
     {
         public long code { get; set; }
         public string name { get; set; }
-        public Nullable<long> parentCode { get; set; }
     }
 }
