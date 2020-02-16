@@ -79,24 +79,10 @@ namespace GetCoffeeAPI.Controllers
                 return BadRequest(ModelState);
             }
 
-            ProductBLL.Add(product);
-            try
-            {
-                Global.SaveChanges();
-            }
-            catch (DbUpdateException)
-            {
-                if (ProductExists(product.code))
-                {
-                    return Conflict();
-                }
-                else
-                {
-                    throw;
-                }
-            }
+           ProductDTO proRes = ProductBLL.Add(product);
 
-            return CreatedAtRoute("DefaultApi", new { id = product.code }, product);
+
+            return Ok(proRes);
         }
 
         // DELETE: api/Products/5

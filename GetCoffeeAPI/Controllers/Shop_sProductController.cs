@@ -90,7 +90,7 @@ namespace GetCoffeeAPI.Controllers
 
         // POST: api/Shop_sProduct
         [ResponseType(typeof(Shop_sProduct))]
-        public IHttpActionResult PostShop_sProduct(Shop_sProduct shop_sProduct)
+        public IHttpActionResult PostShop_sProduct(ShopProductsDTO shop_sProduct)
         {
             if (!ModelState.IsValid)
             {
@@ -100,25 +100,9 @@ namespace GetCoffeeAPI.Controllers
 
             ////string ts = TimeSpan.fromMinutes(this.prepareTime);
             //shop_sProduct.duration = time;
-            ShopProductsBLL.Add(shop_sProduct);
+            ShopProductsDTO sRes = ShopProductsBLL.Add(shop_sProduct);
 
-            try
-            {
-                Global.SaveChanges();
-            }
-            catch (DbUpdateException)
-            {
-                if (Shop_sProductExists(shop_sProduct.productCode))
-                {
-                    return Conflict();
-                }
-                else
-                {
-                    throw;
-                }
-            }
-
-            return CreatedAtRoute("DefaultApi", new { id = shop_sProduct.productCode }, shop_sProduct);
+            return Ok(sRes);
         }
 
         // DELETE: api/Shop_sProduct/5
