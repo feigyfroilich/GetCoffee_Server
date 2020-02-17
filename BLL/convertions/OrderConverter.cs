@@ -19,7 +19,8 @@ namespace BLL.convertions
                 date = order.date.ToString(),
                 deadline = order.deadline,
                 ready = order.ready,
-                taken = order.taken
+                taken = order.taken,
+                email = order.email
             };
         }
         public static List<OrderDTO> DALListToDTO(List<Order> orders)
@@ -40,7 +41,8 @@ namespace BLL.convertions
                 deadline = order.deadline,
                 ready = order.ready,
                 taken = order.taken,
-                code = order.code
+                code = order.code,
+                email = order.email
             };
         }
 
