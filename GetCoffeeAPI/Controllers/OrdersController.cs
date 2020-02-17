@@ -50,7 +50,7 @@ namespace GetCoffeeAPI.Controllers
             try
             {
                 OrderBLL.updateOrder(order);
-                sendEmailViaWebApi();
+                sendEmailViaWebApi(order.email);
                 return Ok();
             }
             catch (Exception)
@@ -89,7 +89,7 @@ namespace GetCoffeeAPI.Controllers
             //return StatusCode(HttpStatusCode.NoContent);
         }
 
-        private void sendEmailViaWebApi()
+        private void sendEmailViaWebApi(string email)
         {
 
             new SmtpClient
@@ -103,7 +103,7 @@ namespace GetCoffeeAPI.Controllers
                 Credentials = new NetworkCredential("feigyfroilich@Gmail.com", "30121998f"),
                 
                 
-        }.Send(new MailMessage { From = new MailAddress("feigyfroilich@Gmail.com", "feigy"), To = { "rachelfroilich@gmail.com" }, Subject = "Get Coffee", Body = "you order is ready", BodyEncoding = Encoding.UTF8 });
+        }.Send(new MailMessage { From = new MailAddress("feigyfroilich@Gmail.com", "feigy"), To = { email }, Subject = "Get Coffee", Body = "ההזמנה שלך מוכנה, בתאבון.", BodyEncoding = Encoding.UTF8 });
 
         }
         // POST: api/Orders
