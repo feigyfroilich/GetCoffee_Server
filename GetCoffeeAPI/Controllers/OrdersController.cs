@@ -50,7 +50,11 @@ namespace GetCoffeeAPI.Controllers
             try
             {
                 OrderBLL.updateOrder(order);
-                sendEmailViaWebApi(order.email);
+                if(order.email != null)
+                {
+                    sendEmailViaWebApi(order.email);
+                }
+                
                 return Ok();
             }
             catch (Exception)
